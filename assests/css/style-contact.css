@@ -1,0 +1,207 @@
+/*heading color background */
+.background{
+    opacity: 0.1;
+}
+body{
+    max-width: 100%;
+}
+header{
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 80px;
+    margin: -10px 0px 20px 0px;
+    border-bottom: solid lightgray;
+}
+
+/*style for Duncan Dam logo*/
+#logo {
+    float: left;
+    width: 250px;
+    height: 80px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+   }
+
+nav {
+    float: right;
+    margin-bottom: 20px;
+  }
+   /*align all links*/
+a {
+    text-decoration: none;
+    color: grey
+}
+
+/*creating vertical lines*/
+.vl{
+    float:right;
+    border: none;
+    border-right: 2px solid lightgrey;
+    padding: 10px 0 10px 0;
+    width: 5px;
+    margin-top: 28px;
+    }  
+
+/*style for About and Portfolio*/
+.Portfolio {
+    float: right;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+/*style for Contact*/
+.Contact {
+    float: right;
+    color: grey;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+/*style for main content*/
+h2 {
+    background-color: #ffffff;
+    width: 960px;
+    height: 450px;
+    margin: auto; 
+    font-family: 'Times New Roman', Times, serif; 
+    }
+/*style for Contact in body*/
+#Contact {
+    width: 160px;
+    height: 30px;
+    float: left;
+    padding: 20px 0 10px 10px;
+    margin-left: -20px;
+    color:  teal;
+    text-align: center; 
+    font-size: 30px; 
+     }
+/*style for line*/
+#contact_hr {
+    width: 920px;
+    color: lightgrey;
+  }
+
+/*style for form*/
+form {
+    margin: 20px;
+    position: relative;
+    font-size: 15px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*style for Name and Address*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0px 0px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+/*style for Message*/
+textarea[type=message] {
+    width: 100%;
+    max-width:100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 4px 0px 0px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*
+  These rules take effect when the browser's width is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+    h2 {
+        background-color: #ffffff;
+        width: 495px;
+        height: 450px;
+        margin: auto; 
+        font-family: 'Times New Roman', Times, serif; 
+        }
+
+    #contact_hr {
+        width: 450px;
+        color: lightgrey;
+        }
+    
+    input[type=submit] {
+            width: 20%;
+    }
+}
+/*
+  These rules take effect when the browser's width is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    h2 {
+        background-color: #ffffff;
+        width: 495px;
+        height: 450px;
+        margin: auto; 
+        font-family: 'Times New Roman', Times, serif; 
+        }
+
+    #contact_hr {
+        width: 450px;
+        color: lightgrey;
+        }
+
+    input[type=submit] {
+        width: 20%;
+        }
+}
+/*
+  These rules take effect when the browser's width is either 640px or less.
+*/
+@media screen and (max-width: 640px) {
+    header {
+        overflow: auto;
+    }
+
+    #logo {
+        width: max-content;
+    }
+
+    nav {
+        overflow: auto;
+    }
+    h2 {
+        background-color: #ffffff;
+        width: 350px;
+        height: 450px;
+        margin: auto; 
+        font-family: 'Times New Roman', Times, serif; 
+        }
+
+    #contact_hr {
+        width: 320px;
+        color: lightgrey;
+        }
+
+    input[type=submit] {
+        width: 30%;
+        }
+}
