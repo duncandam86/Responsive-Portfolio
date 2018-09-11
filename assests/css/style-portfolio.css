@@ -5,69 +5,67 @@
 body{
     max-width: 100%;
 }
-header{
-    background-color: #ffffff;
+.container{
     max-width: 100%;
     height: 80px;
     margin: -10px 0px 20px 0px;
     border-bottom: solid lightgray;
+    background-color: white;
 }
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-/*style for Duncan Dam*/
-.Duncan_Dam {
-    background-color: teal;
-    width: 200px;
-    height: 55px;
+
+/*style for Duncan Dam logo*/
+#logo {
     float: left;
-    padding: 25px 10px 0px 10px;
-    color: white;
-    text-align: center; 
+    width: 250px;
+    height: 80px;
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, sans-serif; 
-    font-weight: bold;       
-   }
-/*creating vertical lines*/
-.vl{
-    float:right;
-    border: none;
-    border-right: 2px solid lightgrey;
-    padding: 10px 0 10px 0;
-    width: 5px;
-    margin-top: 28px;
-    }  
-/*style for About and Portfolio*/
-.Portfolio {
-    float: right;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
     text-align: center;
-    padding: 30px 20px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    text-decoration: none;
+    background: #4aaaa5;
+   }
+
+nav {
+    float: right;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+   /*align all links*/
 a {
     text-decoration: none;
     color: grey
 }
+
+/*style for About and Portfolio*/
+.Portfolio {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
 /*style for Contact*/
 .Contact {
-    float: right;
+    display: inline-block;
     color: grey;
     text-align: center;
     padding: 30px 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     }
-/*style for main content*/
+/*style for main box*/
 h2 {
     background-color: #ffffff;
     width: 960px;
-    height: 650px;
+    height: 500px;
     margin: auto; 
     font-family: 'Times New Roman', Times, serif; 
     }
+
 /*style for Portfolio in body*/
 #BodyPortfolio {
     width: 160px;
@@ -90,7 +88,9 @@ hr {
     height: 150px;
     border: 2px solid black;
     overflow: hidden;
+    display: inline-block;
 }
+
 .box-1{
     top: 0%;
 }
@@ -103,14 +103,8 @@ hr {
 .box-4{
     position: relative;
     top: -82.2%;
-    left: 40%;
+    left: 0%;
 }
-.box-5{
-    position: relative;
-    top: -82.2%;
-    left: 40%;
-}
-
 
 /*
   These rules take effect when the browser's width is either 980px or less.
@@ -118,20 +112,17 @@ hr {
 @media screen and (max-width: 980px) {
     h2 {
         background-color: #ffffff;
-        width: 495px;
-        height: 450px;
+        width: 100%;
+        height: 900px;
         margin: auto; 
         font-family: 'Times New Roman', Times, serif; 
         }
 
     #contact_hr {
-        width: 450px;
+        width: 90%;
         color: lightgrey;
         }
     
-    input[type=submit] {
-            width: 20%;
-    }
 }
 /*
   These rules take effect when the browser's width is either 768px or less.
@@ -139,20 +130,17 @@ hr {
 @media screen and (max-width: 768px) {
     h2 {
         background-color: #ffffff;
-        width: 495px;
-        height: 450px;
+        width: 100%;
+        height: 900px;
         margin: auto; 
         font-family: 'Times New Roman', Times, serif; 
         }
 
     #contact_hr {
-        width: 450px;
+        width: 90%;
         color: lightgrey;
         }
 
-    input[type=submit] {
-        width: 20%;
-        }
 }
 /*
   These rules take effect when the browser's width is either 640px or less.
@@ -180,18 +168,12 @@ hr {
         display: inline-block;
     }
 
-    .Contact {
-        display: inline-block;
-        position: relative;
-        text-align: center;
-    }
-
     h2 {
         background-color: #ffffff;
         position: absolute;
         top: 24%;
         width: 100%;
-        height: 500px;
+        height: 800px;
         margin: auto;
         font-family: 'Times New Roman', Times, serif; 
         }
@@ -200,8 +182,12 @@ hr {
         width: 90%;
         color: lightgrey;
         }
-
-    input[type=submit] {
-        width: 30%;
+    
+    .box {
+        width: 233.33px;
+        height: 100px;
+        border: 2px solid black;
+        overflow: hidden;
         }
+
 }

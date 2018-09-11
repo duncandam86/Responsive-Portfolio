@@ -190,12 +190,6 @@ input[type=submit] {
         display: inline-block;
     }
 
-    .Contact {
-        display: inline-block;
-        position: relative;
-        text-align: center;
-    }
-
     h2 {
         background-color: #ffffff;
         position: absolute;

@@ -61,7 +61,7 @@ a {
 h2 {
     background-color: #ffffff;
     width: 960px;
-    height: 450px;
+    height: 600px;
     margin: auto; 
     font-family: 'Times New Roman', Times, serif; 
     }
@@ -117,10 +117,6 @@ p{
         width: 450px;
         color: lightgrey;
         }
-    
-    input[type=submit] {
-            width: 20%;
-    }
 }
 /*
   These rules take effect when the browser's width is either 768px or less.
@@ -137,10 +133,6 @@ p{
     #contact_hr {
         width: 450px;
         color: lightgrey;
-        }
-
-    input[type=submit] {
-        width: 20%;
         }
 }
 /*
@@ -174,7 +166,7 @@ p{
         position: absolute;
         top: 24%;
         width: 100%;
-        height: 1000px;
+        height: 150%;
         margin: auto;
         font-family: 'Times New Roman', Times, serif; 
         }
@@ -182,9 +174,5 @@ p{
     #contact_hr {
         width: 90%;
         color: lightgrey;
-        }
-
-    input[type=submit] {
-        width: 30%;
         }
 }
