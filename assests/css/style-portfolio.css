@@ -110,3 +110,98 @@ hr {
     top: -82.2%;
     left: 40%;
 }
+
+
+/*
+  These rules take effect when the browser's width is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+    h2 {
+        background-color: #ffffff;
+        width: 495px;
+        height: 450px;
+        margin: auto; 
+        font-family: 'Times New Roman', Times, serif; 
+        }
+
+    #contact_hr {
+        width: 450px;
+        color: lightgrey;
+        }
+    
+    input[type=submit] {
+            width: 20%;
+    }
+}
+/*
+  These rules take effect when the browser's width is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    h2 {
+        background-color: #ffffff;
+        width: 495px;
+        height: 450px;
+        margin: auto; 
+        font-family: 'Times New Roman', Times, serif; 
+        }
+
+    #contact_hr {
+        width: 450px;
+        color: lightgrey;
+        }
+
+    input[type=submit] {
+        width: 20%;
+        }
+}
+/*
+  These rules take effect when the browser's width is either 640px or less.
+*/
+@media screen and (max-width: 640px) {
+    .container{
+        background-color: teal;
+        text-align: center; 
+        position: fixed;
+        width: 100%;
+        margin: none;
+    }
+
+    #logo {
+        float: none;
+        background: none;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    nav {
+        float: none;
+        width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .Contact {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }
+
+    h2 {
+        background-color: #ffffff;
+        position: absolute;
+        top: 24%;
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif; 
+        }
+
+    #contact_hr {
+        width: 90%;
+        color: lightgrey;
+        }
+
+    input[type=submit] {
+        width: 30%;
+        }
+}
