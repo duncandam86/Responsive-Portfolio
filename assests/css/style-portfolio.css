@@ -22,7 +22,7 @@ body{
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #fff;
+    color: pink;
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
@@ -46,6 +46,7 @@ a {
     padding: 30px 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    color: teal;
     }
 
 /*style for Contact*/
@@ -56,6 +57,7 @@ a {
     padding: 30px 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    color: teal;
     }
 /*style for main box*/
 h2 {
@@ -104,6 +106,19 @@ hr {
     position: relative;
     top: -82.2%;
     left: 0%;
+}
+/*style footer*/
+div.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: teal;
+
+ }
+p.footer{
+    text-align: center;
+    color: white;
 }
 
 /*
