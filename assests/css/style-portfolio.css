@@ -114,11 +114,12 @@ div.footer {
     bottom: 0;
     width: 100%;
     background-color: teal;
-
  }
 p.footer{
     text-align: center;
+    font-size: 15px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
